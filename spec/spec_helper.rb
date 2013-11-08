@@ -34,7 +34,7 @@ require 'spree_latin_geonames/factories'
 
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
-
+  config.include Capybara::DSL
   # == URL Helpers
   #
   # Allows access to Spree's routes in specs:
