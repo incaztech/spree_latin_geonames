@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 2.1.2'
-  gem 'money', '~> 5.1'
+  s.add_dependency 'money', '~> 5.1'
   s.add_dependency 'spree_frontend', '~> 2.1.2'
   s.add_dependency 'spree_backend', '~> 2.1.2'
 

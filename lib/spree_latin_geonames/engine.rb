@@ -1,8 +1,13 @@
 module SpreeLatinGeonames
   class Engine < Rails::Engine
     require 'spree/core'
+    require 'spree/mexico'
     isolate_namespace Spree
     engine_name 'spree_latin_geonames'
+
+    def self.load_country(file)
+      Spree::Geoname.load_country(file)
+    end
 
     config.autoload_paths += %W(#{config.root}/lib)
 
