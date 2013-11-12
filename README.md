@@ -9,7 +9,7 @@ Installation
 Add spree_latin_geonames to your Gemfile:
 
 ```ruby
-gem 'spree_latin_geonames'
+gem 'spree_latin_geonames', :git => 'git://github.com/incaztech/spree_latin_geonames.git'
 ```
 
 Add country mexico or brazil:
