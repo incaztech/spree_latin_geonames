@@ -12,11 +12,11 @@ Add spree_latin_geonames to your Gemfile:
 gem 'spree_latin_geonames'
 ```
 
-Bundle your dependencies and run the installation generator:
+Add country mexico or brazil:
 
 ```shell
-bundle
-bundle exec rails g spree_latin_geonames:install
+bundle exec rake spree_country:mexico
+bundle exec rake spree_country:brazil
 ```
 
 Testing
@@ -37,4 +37,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_latin_geonames/factories'
 ```
 
-Copyright (c) 2013 [name of extension creator], released under the New BSD License
+Copyright (c) 2013 Incaztech S. de R.L., released under the New BSD License
