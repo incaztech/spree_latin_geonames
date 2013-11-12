@@ -28,9 +28,4 @@ Spree::State.create!([
 	{name:'Alagoas', abbr:'AL', country: country},
 	{name:'Sergipe', abbr:'SE', country: country},
 	{name:'Distrito Federal', abbr:'DF', country: country},
-	{name:'', abbr:'', country: country},
-	{name:'', abbr:'', country: country},
-	{name:'', abbr:'', country: country},
-	{name:'', abbr:'', country: country},
-	{name:'', abbr:'', country: country}
 ])
