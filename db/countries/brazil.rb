@@ -1,4 +1,4 @@
-country = Spree::Country.find_or_create_by_name(name: "Brazil", iso3: "BRA", iso: "BR", iso_name: "BRAZIL", numcode: "76", states_required: true)
+country = Spree::Country.find_or_create_by(name: "Brazil", iso3: "BRA", iso: "BR", iso_name: "BRAZIL", numcode: "76", states_required: true)
 
 Spree::State.create!([
 	{name:'Amazonas', abbr:'AM', country: country},

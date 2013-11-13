@@ -15,8 +15,8 @@ gem 'spree_latin_geonames', :git => 'git://github.com/incaztech/spree_latin_geon
 Add country mexico or brazil:
 
 ```shell
-bundle exec rake spree_country:mexico
-bundle exec rake spree_country:brazil
+bundle exec rake spree_geoname:country[mexico]
+bundle exec rake spree_geoname:country[brazil]
 ```
 
 Testing

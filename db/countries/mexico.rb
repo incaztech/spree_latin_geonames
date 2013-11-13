@@ -1,4 +1,4 @@
-country = Spree::Country.find_or_create_by_name(name: "Mexico", iso3: "MEX", iso: "MX", iso_name: "MEXICO", numcode: "484", states_required: true)
+country = Spree::Country.find_or_create_by(name: "Mexico", iso3: "MEX", iso: "MX", iso_name: "MEXICO", numcode: "484", states_required: true)
 
 Spree::State.create!([
   {name:'Aguascalientes', abbr:'Ags', country:  country },
